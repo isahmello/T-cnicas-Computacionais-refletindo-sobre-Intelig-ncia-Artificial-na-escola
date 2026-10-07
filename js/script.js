@@ -9,6 +9,14 @@ const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
+const botaoJogarNovamente=document.querySelector(".novamente-btn");
+
+let atual = 0; 
+let perguntaAtual;
+let historiaFinal = "";
+
+
+
 
 const perguntas = [
     {
@@ -118,9 +126,6 @@ const perguntas = [
     }
 ];
 
-let atual = 0; 
-let perguntaAtual;
-let historiaFinal = "";
 
 function mostraPergunta() {
     if(atual >= perguntas.length){
