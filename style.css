@@ -41,6 +41,10 @@ button:hover{
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
 }
+.caixa-alternativas{
+display:flex;
+flex-direction:column;
+}
 .caixa-resultado{
     display:none;
 }
