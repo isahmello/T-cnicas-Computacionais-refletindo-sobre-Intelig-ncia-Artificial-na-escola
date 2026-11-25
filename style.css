@@ -1,7 +1,8 @@
+
 :root{
     --cor-fundo: #01080E ;
     --cor-principal: #0B0D20 ;
-    --cor-secundaria: #212333; 
+    --cor-secundaria: #212333;
     --cor-destaque: #2BDEFD;
     --cor-texto: #D7F9FF;
 
@@ -10,10 +11,11 @@
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
+    font-family: "Roboto Condensed", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height:100vh;
 }
 
 .caixa-principal{
@@ -41,13 +43,16 @@ button:hover{
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
 }
+
 .caixa-alternativas{
-display:flex;
-flex-direction:column;
+display: flex;
+flex-direction: column ;
+gap: 10px;
 }
 .caixa-resultado{
-    display:none;
+    display: none;
 }
-.caixa-resultado.mostrar{
-    display:block;
+
+.caixa-resultado .mostrar{
+    display: block;
 }
