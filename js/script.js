@@ -6,10 +6,11 @@ const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
-const botaoJogarNovamente= document.querySelector(".novamente-btn")
+const botaoJogarNovamente= document.querySelector(".novamente-btn");
 
 const nomeSorteado= aleatorio (nomes);//Adicionado 07-11
-
+const botaoInicial=document.querySelector(".iniciar-btn");
+const telaInicial=document.querySelector("tela-inicial");
 
 
 let atual = 0;
