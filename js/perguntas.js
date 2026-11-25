@@ -5,19 +5,23 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Isso é assustador!",
-                afirmacao: "preocupado"
+                afirmacao: "preocupado",
+        próxima:1,
             },
             {
                 texto: "Isso é maravilhoso!",
-                afirmacao: "entusiasmado"
+                afirmacao: "entusiasmado",
+        próxima:2,
             },
             {
                 texto: "Quero entender melhor como essa tecnologia funciona.",
-                afirmacao: "curioso"
+                afirmacao: "curioso",
+                 próxima:3,
             },
             {
                 texto: "Preciso descobrir se essa tecnologia pode ser usada com segurança.",
-                afirmacao: "cauteloso"
+                afirmacao: "cauteloso",
+                 próxima:4,
             }
         ]
     },
@@ -26,19 +30,23 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Utilizar uma ferramenta de busca na internet que utiliza IA para encontrar informações relevantes para o trabalho e explicá-las em uma linguagem que facilite o entendimento.",
-                afirmacao: "uso_responsavel"
+                afirmacao: "uso_responsavel",
+                 próxima:5,
             },
             {
                 texto: "Escrever o trabalho com base nas conversas que teve com colegas, em algumas pesquisas na internet e em seus próprios conhecimentos sobre o tema.",
-                afirmacao: "pesquisa_autonoma"
+                afirmacao: "pesquisa_autonoma",
+                 próxima:6,
             },
             {
                 texto: "Utilizar a IA como apoio para organizar as ideias, mas conferir as informações antes de colocá-las no trabalho.",
-                afirmacao: "uso_critico"
+                afirmacao: "uso_critico",
+                 próxima:7,
             },
             {
                 texto: "Pedir para a IA escrever todo o trabalho e entregá-lo sem fazer alterações.",
-                afirmacao: "dependente"
+                afirmacao: "dependente",
+                 próxima:8,
             }
         ]
     },
@@ -47,19 +55,23 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Eu me preocupo com as pessoas que podem perder seus empregos para máquinas e defendo a importância de proteger os trabalhadores.",
-                afirmacao: "preocupado"
+                afirmacao: "preocupado",
+                 próxima:9,
             },
             {
                 texto: "Eu defendo a ideia de que a IA pode criar novas oportunidades de emprego e melhorar as habilidades humanas.",
-                afirmacao: "otimista"
+                afirmacao: "otimista",
+                 próxima:10,
             },
             {
                 texto: "Acredito que será necessário aprender novas habilidades para trabalhar junto com as tecnologias de IA.",
-                afirmacao: "adaptacao"
+                afirmacao: "adaptacao",
+                 próxima:11,
             },
             {
                 texto: "Acredito que empresas e governos devem criar regras para garantir que a IA seja utilizada de maneira justa no ambiente de trabalho.",
-                afirmacao: "regulamentacao"
+                afirmacao: "regulamentacao",
+                 próxima:12,
             }
         ]
     },
@@ -68,19 +80,23 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Criar uma imagem utilizando uma plataforma de desenho, como o Paint.",
-                afirmacao: "tradicional"
+                afirmacao: "tradicional",
+                 próxima:13,
             },
             {
                 texto: "Criar uma imagem utilizando um gerador de imagens de IA.",
-                afirmacao: "inovador"
+                afirmacao: "inovador",
+                 próxima:14,
             },
             {
                 texto: "Criar uma imagem manualmente e depois utilizar a IA para aprimorar alguns detalhes.",
-                afirmacao: "hibrido"
+                afirmacao: "hibrido",
+                 próxima:15,
             },
             {
                 texto: "Experimentar diferentes ferramentas de IA até encontrar uma forma criativa de representar minha ideia.",
-                afirmacao: "criativo"
+                afirmacao: "criativo",
+                 próxima:16,
             }
         ]
     },
@@ -89,19 +105,23 @@ const perguntas = [
         alternativas: [
             {
                 texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso ter atenção, pois toda máquina pode cometer erros. Por isso, revisar o trabalho e contribuir com perspectivas pessoais é essencial.",
-                afirmacao: "uso_responsavel"
+                afirmacao: "uso_responsavel",
+                 próxima:17,
             },
             {
                 texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "dependente"
+                afirmacao: "dependente",
+                 próxima:18,
             },
             {
                 texto: "Sugiro utilizar o texto da IA apenas como ponto de partida e reescrever as informações com nossas próprias palavras.",
-                afirmacao: "uso_critico"
+                afirmacao: "uso_critico",
+                 próxima:19,
             },
             {
                 texto: "Converso com o grupo sobre a importância de verificar as informações geradas pela IA antes de entregar o trabalho.",
-                afirmacao: "colaborativo"
+                afirmacao: "colaborativo",
+                 próxima:20,
             }
         ]
     }
